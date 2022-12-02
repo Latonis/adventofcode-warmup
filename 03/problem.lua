@@ -8,7 +8,7 @@ local function split (inputstr, sep)
     end
     return t
  end
-
+ 
 local function getInput(fileName)
     local fileIn = io.open(fileName)
 
@@ -24,11 +24,9 @@ end
 
 local function solveProblem(input)
     -- do things here to solve problem
-
     for line in input do
         print(line)
     end
-    
     -- do things above here to solve the problem
 end
 
